@@ -1,0 +1,5 @@
+{
+  "Data Scientist": ["Python", "pandas", "scikit-learn", "SQL", "ML"],
+  "Web Developer": ["HTML", "CSS", "JavaScript", "React", "Node.js"],
+  "DevOps Engineer": ["Docker", "Kubernetes", "CI/CD", "AWS", "Linux"]
+}
