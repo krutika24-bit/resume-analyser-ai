@@ -423,15 +423,6 @@ if st.session_state.result:
     with st.expander("📃 View extracted resume text"):
         st.text_area("", st.session_state.resume_text, height=300, label_visibility="collapsed")
 
-# ── Footer ────────────────────────────────────────────────────────────────────
-st.markdown("""
-<div style="text-align:center;padding:40px 0 20px;margin-top:40px;border-top:1px solid #1e1e1e">
-    <span style="font-size:13px;color:#444">Built with ❤️ by </span>
-    <span style="font-size:14px;font-weight:600;background:linear-gradient(90deg,#e94560,#533483);
-    -webkit-background-clip:text;-webkit-text-fill-color:transparent">Krutika Bhoi</span>
-</div>
-""", unsafe_allow_html=True)
-
 else:
     # Welcome / empty state
     st.markdown("""
@@ -459,3 +450,12 @@ else:
                 <div style="font-weight:600;font-size:15px;margin-bottom:6px;color:#ddd">{title}</div>
                 <div style="font-size:13px;color:#666;line-height:1.6">{desc}</div>
             </div>""", unsafe_allow_html=True)
+
+# ── Footer ────────────────────────────────────────────────────────────────────
+st.markdown("""
+<div style="text-align:center;padding:40px 0 20px;margin-top:40px;border-top:1px solid #1e1e1e">
+    <span style="font-size:13px;color:#444">Built with ❤️ by </span>
+    <span style="font-size:14px;font-weight:600;background:linear-gradient(90deg,#e94560,#533483);
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent">Krutika Bhoi</span>
+</div>
+""", unsafe_allow_html=True)
